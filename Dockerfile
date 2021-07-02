@@ -1,7 +1,7 @@
-FROM klanrali/telethon-Arabs:latest
+FROM ViruThon/Viru-Pack:latest
 
 #clonning repo 
-RUN git clone https://github.com/klanrali/telethon-Arabs.git /root/userbot
+RUN git clone https://github.com/ViruThon/Viru-Pack.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
