@@ -1,8 +1,4 @@
-"""
-created by @iqthon and @klanr
-Idea by @yzzzy
 
-"""
 
 import asyncio
 import base64
