@@ -1,4 +1,3 @@
-# credits to @klanr
 import io
 import sys
 import traceback
