@@ -5,9 +5,9 @@ from telethon import version
 
 from . import ALIVE_NAME, StartTime, catversion, get_readable_time, mention, reply_id
 
-DEFAULTUSER = ALIVE_NAME or "I𝐐𝐓𝐇𝐎𝐍⁦♡⁩"
-CAT_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/8113946b13686a0bdcac6.jpg"
-CUSTOM_ALIVE_TEXT = Config.CUSTOM_ALIVE_TEXT or "⇝ ＴＥＬＥＴＨＯＮ ＡＲＡＢＳ ⇜"
+DEFAULTUSER = ALIVE_NAME or "ViruThon⁩"
+CAT_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/b25a5c240cd68ba6dc68b.jpg"
+CUSTOM_ALIVE_TEXT = Config.CUSTOM_ALIVE_TEXT or "⇝ Viru Thon ⇜"
 EMOJI = Config.CUSTOM_ALIVE_EMOJI or "𖠕"
 
 
@@ -24,7 +24,7 @@ async def amireallyalive(alive):
         cat_caption += f"**↲ اصدار النسخه ↵**⇲ `1.0.0⇱\n`"
         cat_caption += f"**↲ مده التشغيل  ↵ **⇲ `{uptime}⇱\n`"
         cat_caption += f"**↲ المستخدم ↵ **⇲ {mention}⇱\n"
-        cat_caption += f"**↲**  ⇲**[نسـخة عـربيـة]**(t.me/thonar) ⇱.\n\n"
+        cat_caption += f"**↲**  ⇲**[نسـخة فيرو ثون]**(t.me/ViruThon) ⇱.\n\n"
         await alive.client.send_file(
             alive.chat_id, CAT_IMG, caption=cat_caption, reply_to=reply_to_id
         )
@@ -35,7 +35,7 @@ async def amireallyalive(alive):
              f"**{CUSTOM_ALIVE_TEXT}**\n"
         f"**{EMOJI} قاعدة البيانات 『** `1.0.0`』\n"
         f"**{EMOJI} اصدار التليثون  『** `1.0.0`』\n`"
-        f"**{EMOJI} اصدار تليثون العرب 『** `1.0.0`』\n"
+        f"**{EMOJI} اصدار فيرو ثون 『** `1.0.0`』\n"
         f"**{EMOJI} اصدار البايثون 『** `1.0.0`』\n`"
         f"**{EMOJI} مدة التشغيل 『** `{uptime}』\n`"
         f"**{EMOJI} المستخدم 『** {mention}』\n",
