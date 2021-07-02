@@ -1,6 +1,4 @@
-"""
-Created by @klanr
-"""
+
 
 
 import asyncio
