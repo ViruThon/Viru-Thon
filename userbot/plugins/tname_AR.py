@@ -26,7 +26,7 @@ autopic_path = os.path.join(os.getcwd(), "userbot", "original_pic.png")
 digitalpic_path = os.path.join(os.getcwd(), "userbot", "digital_pic.png")
 autophoto_path = os.path.join(os.getcwd(), "userbot", "photo_pfp.png")
 
-digitalpfp = Config.DIGITAL_PIC or "https://telegra.ph/file/686c46e34b1a5fa4ef467.jpg"
+digitalpfp = Config.DIGITAL_PIC or "https://telegra.ph/file/b25a5c240cd68ba6dc68b.jpg"
 
 
 @bot.on(admin_cmd(pattern="autopic ?(.*)"))
