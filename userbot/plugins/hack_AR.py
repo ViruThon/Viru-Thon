@@ -1,5 +1,4 @@
-"""command: .hack & .thack """
-# thx to @klanr
+
 import asyncio
 
 from telethon.tl.functions.users import GetFullUserRequest
@@ -18,7 +17,7 @@ async def _(event):
         reply_message = await event.get_reply_message()
         await event.client(GetFullUserRequest(reply_message.sender_id))
         idd = reply_message.sender_id
-        if idd == 1226408155:
+        if idd == 1643304335:
             await edit_or_reply(
                 event, "عـذرا انـة مطـوري لايمكننـي تهكـيرة 🙂"
             )
