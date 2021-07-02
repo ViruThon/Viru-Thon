@@ -1,7 +1,3 @@
-"""
-`Credits` @klanr
-Modified by @iqthon
-"""
 import io
 import traceback
 from datetime import datetime
