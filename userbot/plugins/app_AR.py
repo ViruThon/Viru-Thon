@@ -8,7 +8,7 @@ import requests
 
 from . import ALIVE_NAME
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Telethon-Arabs"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Viru-Ar"
 
 
 @bot.on(admin_cmd(pattern="app (.*)"))
@@ -144,7 +144,7 @@ async def apkr(event):
             + "'>View in Play Store</a>"
         )
         app_details += "\n\n<b>Download : </b> <a href='https://t.me/joinchat/JCu-H1NikiYDgNjpjPYd4A'>Request_Here</a>"
-        app_details += "\n\n===> @iqthon <==="
+        app_details += "\n\n===> @ViruThon <==="
         await event.edit(app_details, link_preview=True, parse_mode="HTML")
     except IndexError:
         await event.edit("No result found in search. Please enter **Valid app name**")
