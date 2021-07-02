@@ -1,6 +1,4 @@
-# by  @klanr ( https://t.me/iqthon  )
 
-# songs finder for telethon-Arabs
 
 import asyncio
 import base64
