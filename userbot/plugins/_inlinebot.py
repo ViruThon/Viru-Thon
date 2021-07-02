@@ -21,11 +21,11 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         query = event.text
         hmm = re.compile("secret (.*) (.*)")
         match = re.findall(hmm, query)
-        if query.startswith("**𝗍𝖾𝗅𝖾𝗍𝗁𝗈𝗇-𝖺𝗋𝖺𝖻𝗌 Bot") and event.query.user_id == bot.uid:
+        if query.startswith("**Viru Thon Bot") and event.query.user_id == bot.uid:
             buttons = [
                 (
                     custom.Button.inline("Stats", data="stats"),
-                    Button.url("Repo", "https://github.com/klanrali/telethon-Arabs"),
+                    Button.url("Repo", "https://github.com/ViruThon/Viru-Thon"),
                 )
             ]
             if CAT_IMG and CAT_IMG.endswith((".jpg", ".png")):
@@ -161,7 +161,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
             # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "عليك الحصول على بوت تليثون العرب خاص بك من - @iqthon. "
+            reply_pop_up_alert = "عليك الحصول على بوت فيرو ثون خاص بك من - @ViruThon.  "
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(
@@ -178,7 +178,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
             # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "عليك الحصول على بوت تليثون العرب خاص بك من - @iqthon.  "
+            reply_pop_up_alert = "عليك الحصول على بوت فيرو ثون خاص بك من - @ViruThon.  "
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"secret_(.*)")))
@@ -220,7 +220,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
                 reply_pop_up_alert = "{} is useless".format(plugin_name)
             else:
                 reply_pop_up_alert = help_string
-            reply_pop_up_alert += "استخدم .unload {} لحذف هذه الاضافه ©iqthon".format(
+            reply_pop_up_alert += "استخدم .unload {} لحذف هذه الاضافه ©ViruThon".format(
                 plugin_name
             )
             try:
@@ -237,7 +237,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
                         caption=plugin_name,
                     )
         else:
-            reply_pop_up_alert = "عليك الحصول على بوت تليثون العرب خاص بك من - @iqthon.  "
+            reply_pop_up_alert = "عليك الحصول على بوت فيرو ثون خاص بك من - @ViruThon.  "
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"close")))
@@ -245,7 +245,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         if event.query.user_id == bot.uid:
             await event.edit("menu closed")
         else:
-            reply_pop_up_alert = "عليك الحصول على بوت تليثون العرب خاص بك من - @iqthon.  "
+            reply_pop_up_alert = "عليك الحصول على بوت فيرو ثون خاص بك من - @ViruThon.  "
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"stats")))
