@@ -1,12 +1,5 @@
 
 
-"""
-----------------------------------------------------------------
-All Thenks goes to Emily ( The creater of This Plugin)
-\nSome credits goes to me ( @klanr ) for ported this plugin
-\nand `klanr for` Helping me @iqthon .
-----------------------------------------------------------------
-
 Type `.poto` for get **All profile pics of that User**
 \nOr type `.poto (number)` to get the **desired number of photo of a User** .
 """
