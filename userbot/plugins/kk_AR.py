@@ -1,6 +1,3 @@
-"""command: .telethon By @iqthon """
-
-
 import random
 
 from telethon import events
@@ -15,6 +12,6 @@ async def _(event):
         r = random.randint(0, 3)
         logger.debug(r)
         if r == 0:
-            await event.edit("@IQTHON \n @YZZZY \n @KLANR")
+            await event.edit("@ViruThon \n  @ilTTTl")
         else:
-            await event.edit("@IQTHON \n @YZZZY \n @KLANR")
+            await event.edit("@ViruThon \n  @ilTTTl")
