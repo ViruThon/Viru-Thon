@@ -35,9 +35,9 @@ B = f"⌔𖠕 اهلا {mention} \n ⌔𖠕 بوتك هو {BOT_USERNAME}"
 
 # Alive Bot
 TOSH = (
-    f"**𖠕 تليثون العرب يعمل بنجاح 𖠕**\n"
+    f"**𖠕 فيرو ثون يعمل بنجاح 𖠕**\n"
     f"**   - اصدار التليثون :** `{version.__version__}\n`"
-    f"**   - اصدار تليثون العرب :** `{catversion}`\n"
+    f"**   - اصدار فيرو ثون :** `{catversion}`\n"
     f"**   - البوت المستخدم :** `{BOT_USERNAME}`\n"
     f"**   - اصدار البايثون :** `{python_version()}\n`"
     f"**   - المستخدم :** {mention}\n"
@@ -47,10 +47,9 @@ TOSH = (
 R = (
     "𖠕 𝘼𝙍𝘼𝘽𝙄𝘾 𝘾𝘼𝙏 - 𝙍𝙀𝙋𝙊 𓆪 \n"
     "𓍹ⵧⵧⵧⵧⵧⵧⵧⵧᵗᵉˡᵉᵗʰᵒᶰ ᵃʳᵃᵇˢ⁦⁦ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
-    "- 𝗍𝖾𝗅𝖾𝗍𝗁𝗈𝗇-𝖺𝗋𝖺𝖻𝗌 - 𝖽𝖾𝗏 Ξ [𝖼𝗅𝗂𝖼𝗄 𝗁𝖾𝗋𝖾 𝅘𝅥𝅮](t.me/iqthon) 𖠕 \n"
-    "- 𝗌𝗈𝗎𝗋𝖼𝖾 𝗍𝖾𝗅𝖾𝗍𝗁𝗈𝗇-𝖺𝗋𝖺𝖻𝗌 Ξ [𝖼𝗅𝗂𝖼𝗄 𝗁𝖾𝗋𝖾 𝅘𝅥𝅮](https://github.com/klanrali/telethon-Arabs) 𖠕"
+    "- Vero Thon - 𝖽𝖾𝗏 Ξ [𝖼𝗅𝗂𝖼𝗄 𝗁𝖾𝗋𝖾 𝅘𝅥𝅮](t.me/ViruThon) 𖠕 \n"
 )
-K = "https://github.com/klanrali/telethon-Arabs"
+K = "https://github.com/ViruThon/Viru-Thon"
 
 
 Heroku = heroku3.from_key(Config.HEROKU_API_KEY)
