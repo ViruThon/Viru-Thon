@@ -1,7 +1,6 @@
 """Fetch App Details from Playstore.
 .app <app_name> to fetch app details.
 .appr <app_name>  to fetch app details with Xpl0iter request link.
-  © [klanr](iqthon)"""
 
 import bs4
 import requests
