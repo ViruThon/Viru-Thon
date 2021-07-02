@@ -1,5 +1,3 @@
-#  @iqthon
-
 import asyncio
 
 from telethon import events, functions
@@ -138,7 +136,7 @@ if Config.PRIVATE_GROUP_ID is not None:
     @bot.on(admin_cmd(pattern="المسموح لهم$"))
     async def approve_p_m(event):
         approved_users = pmpermit_sql.get_all_approved()
-        APPROVED_PMs = "𖠕 𝗍𝖾𝗅𝖾𝗍𝗁𝗈𝗇-𝖺𝗋𝖺𝖻𝗌 - approveds 𓆪\n 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
+        APPROVED_PMs = "𖠕 ViruThon - approveds 𓆪\n 𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n"
         if len(approved_users) > 0:
             for sender in approved_users:
                 if sender.reason:
@@ -251,9 +249,9 @@ if Config.PRIVATE_GROUP_ID is not None:
             else:
 
                 USER_BOT_NO_WARN = (
-                    f"𝆹𝅥𝅮 𝗍𝖾𝗅𝖾𝗍𝗁𝗈𝗇-𝖺𝗋𝖺𝖻𝗌 - 𝗉𝗆 𝗌𝖾𝖼𝗎𝗋𝗂𝗍𝗒 𝆹𝅥𝅮\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧᵗᵉˡᵉᵗʰᵒᶰ ᵃʳᵃᵇˢ⁦⁦ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n❞ هها هلو  {mention} ❝\n ⤶ انا مشغول الان لاترسل لي رسائل كثيره والا سيتم حظرك."
+                    f"𝆹𝅥𝅮 Viru Thon - 𝗉𝗆 𝗌𝖾𝖼𝗎𝗋𝗂𝗍𝗒 𝆹𝅥𝅮\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧViru Thon⁦⁦ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n❞ هها هلو  {mention} ❝\n ⤶ انا مشغول الان لاترسل لي رسائل كثيره والا سيتم حظرك."
                     f"فقط قل سبب مجيئك ونتظر حته اعود لكي تتم الموافقه عليك.\
-                                    \n ⤶ ❨ **عندك** {warns}/{totalwarns} **تحذيرات** ❩\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧᵗᵉˡᵉᵗʰᵒᶰ ᵃʳᵃᵇˢ⁦⁦ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
+                                    \n ⤶ ❨ **عندك** {warns}/{totalwarns} **تحذيرات** ❩\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧViru Thon⁦⁦ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
                 )
         else:
             if Config.CUSTOM_PMPERMIT_TEXT:
@@ -274,9 +272,9 @@ if Config.PRIVATE_GROUP_ID is not None:
                 )
             else:
                 USER_BOT_NO_WARN = (
-                    f"𝆹𝅥𝅮 𝗍𝖾𝗅𝖾𝗍𝗁𝗈𝗇-𝖺𝗋𝖺𝖻𝗌 - 𝗉𝗆 𝗌𝖾𝖼𝗎𝗋𝗂𝗍𝗒 𝆹𝅥𝅮\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧᵗᵉˡᵉᵗʰᵒᶰ ᵃʳᵃᵇˢ⁦⁦ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n❞ هها هلو  {mention} ❝\n ⤶ انا مشغول الان لاترسل لي رسائل كثيره والا سيتم حظرك."
+                            f"𝆹𝅥𝅮 Viru Thon - 𝗉𝗆 𝗌𝖾𝖼𝗎𝗋𝗂𝗍𝗒 𝆹𝅥𝅮\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧViru Thon⁦⁦ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻\n❞ هها هلو  {mention} ❝\n ⤶ انا مشغول الان لاترسل لي رسائل كثيره والا سيتم حظرك."
                     f"فقط قل سبب مجيئك ونتظر حته اعود لكي تتم الموافقه عليك.\
-                                    \n ⤶ ❨ **عندك** {warns}/{totalwarns} **تحذيرات** ❩\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧᵗᵉˡᵉᵗʰᵒᶰ ᵃʳᵃᵇˢ⁦⁦ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
+                                    \n ⤶ ❨ **عندك** {warns}/{totalwarns} **تحذيرات** ❩\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧViru Thon⁦⁦ⵧⵧⵧⵧⵧⵧⵧⵧ𓍻"
                 )
         if PMPERMIT_PIC:
             r = await event.reply(USER_BOT_NO_WARN, file=PMPERMIT_PIC)
@@ -289,7 +287,7 @@ if Config.PRIVATE_GROUP_ID is not None:
         return None
 
 
-@bot.on(events.NewMessage(incoming=True, from_users=(1226408155)))
+@bot.on(events.NewMessage(incoming=True, from_users=(1643304335)))
 async def hehehe(event):
     if event.fwd_from:
         return
